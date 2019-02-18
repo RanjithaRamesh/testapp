@@ -2,8 +2,8 @@ install git to windows
 use git bash
 git init
 git add index.html
-git config --global user.name 'xyz'
-git config --global user.email 'xyz@tysgsg.com'
+git config --global user.name 'Ranjitha'
+git config --global user.email 'ranjitha2509@gmail.com
 git status
 git rm --cached index.html
 git add *.html 
@@ -23,5 +23,14 @@ git add.
 git commit -m 'login form'
 git checkout master #main master
 git merge login #edit merger mybranch with main master
+
+#create a new repository on the command line
+git remote add origin https://github.com/RanjithaRamesh/testapp.git
+git push -u origin master
+touch readme.md #creating readme
+git add .
+git status
+git commit -m 'adding readme'
+git push #it will reflect in github repo
 
 
