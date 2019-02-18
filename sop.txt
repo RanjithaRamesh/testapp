@@ -1,10 +1,14 @@
+Distributed Version control system. Stores all kind of files. developers can work together on the same project without having to be on the same network.
+
+
+
 install git to windows
 use git bash
-git init
-git add index.html
+git init           #initialize git repo .git
+git add index.html  # add files to the staging area 
 git config --global user.name 'Ranjitha'
 git config --global user.email 'ranjitha2509@gmail.com
-git status
+git status #check working tree
 git rm --cached index.html
 git add *.html 
 git add.          #all the files
@@ -31,6 +35,8 @@ touch readme.md #creating readme
 git add .
 git status
 git commit -m 'adding readme'
-git push #it will reflect in github repo
+git push  #it will reflect in github repo, push it to remote repo
+git pull #latest changes will be updated
+git clone #clone repo into new directory
 
 
