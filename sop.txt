@@ -1,0 +1,27 @@
+install git to windows
+use git bash
+git init
+git add index.html
+git config --global user.name 'xyz'
+git config --global user.email 'xyz@tysgsg.com'
+git status
+git rm --cached index.html
+git add *.html 
+git add.          #all the files
+git commit #edit the file to initial commit 
+git commit -m 'changed index.html' # directly commit changes
+touch .gitignore #ignore files in this path #edit log.txt to ignore
+touch log.txt
+git add .
+git status # mentions only gitignore
+           #can ignore directories as well but mention file name in getignore
+git branch mybranch #creating branch
+git commit -m 'another change'
+git checkout mybranch
+touch login.txt
+git add.
+git commit -m 'login form'
+git checkout master #main master
+git merge login #edit merger mybranch with main master
+
+
